@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ДІАГНОСТИЧНИЙ ПРАКТИКУМ</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+      fbq('init', '989563392403931');
+      fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=989563392403931&ev=PageView&noscript=1"
+    /></noscript>
+    <header class="header">
+      <div class="container">
+        <p class="header-practicum">ДІАГНОСТИЧНИЙ ПРАКТИКУМ</p>
+        <div class="header-info-container">
+          <div class="header-start-wrapper">
+            <p class="header-start">
+              Старт <span id="dateElement"></span>
+              <span id="monthElement"></span>
+            </p>
+          </div>
+          <p class="header-last-places">Залишилось всього 11 місць</p>
+        </div>
+        <h1 class="header-title">
+          Як за 7 кроків знайти підсвідомі блоки, які не дають тобі заробляти
+        </h1>
+        <p class="header-subtitle">$3-$5-$10 000</p>
+        <p class="header-desc">
+          🔓 Визначте підсвідомі бар'єри, які стримують ваш дохід, і зламайте їх
+          раз і назавжди!
+        </p>
+        <ul class="header-list">
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/green-check-1x.png 1x,
+                  ./src/img/header/green-check-2x.png 2x
+                " />
+              <img
+                class="item-image"
+                src="./src/img/header/green-check-1x.png"
+                alt="green check"
+                width="26"
+                height="26"
+            /></picture>
+            <p class="item-text">
+              Позбавтеся стресу, постійної напруги та апатії
+            </p>
+          </li>
+          <li class="list-item">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/green-check-1x.png 1x,
+                  ./src/img/header/green-check-2x.png 2x
+                " />
+              <img
+                class="item-image"
+                src="./src/img/header/green-check-1x.png"
+                alt="green check"
+                width="26"
+                height="26"
+            /></picture>
+            <p class="item-text">
+              Відчуйте легкість, кайф і задоволення від кожного заробленого
+              долара
+            </p>
+          </li>
+        </ul>
+        <p class="header-price"><span>3770грн</span> 377 грн</p>
+        <div class="header-button-container">
+          <button class="header-button link" type="button" data-modal-open>
+            приєднатися
+          </button>
+          <div class="header-sale-mark">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/sale-mark-1x.png 1x,
+                  ./src/img/header/sale-mark-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="52"
+                height="52" />
+              <img
+                class="sale-mark"
+                src="./src/img/header/sale-mark-1x.png"
+                alt="sale"
+                width="52"
+                height="52"
+            /></picture>
+            <p class="sale-number">-90%</p>
+          </div>
+        </div>
+        <p class="get-for-week">
+          <span>За 7 днів</span> ви отримаєте чіткий план дій, який змінить ваш
+          підхід до заробітку і виведе вас на новий рівень доходів
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="bonuses">
+        <div class="container">
+          <div class="bonuses-wrapper">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonuses/gift-1x.png 1x,
+                  ./src/img/bonuses/gift-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="auto"
+                height="auto" />
+              <img
+                class="gift-image"
+                src="./src/img/bonuses/gift-1x.png"
+                alt="gift"
+                width="auto"
+                height="auto"
+            /></picture>
+            <p class="bonuses-title">Після реєстрації ви отримаєте бонуси:</p>
+            <ul class="bonuses-list">
+              <li class="list-item">
+                ТОП-5 інструментів для підвищення <br />
+                енергії та ресурсності
+              </li>
+              <li class="list-item">Система керування фінансами на мільйон</li>
+            </ul>
+          </div>
+          <!-- <h2 class="bonuses-main-title">
+            Встигніть зареєструватись <span>до кінця доби і виграйте:</span>
+          </h2> -->
+          <!-- <div class="money-gift-wrapper">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonuses/fire-1x.png 1x,
+                  ./src/img/bonuses/fire-1x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="42"
+                height="42" />
+              <img
+                class="fire-image left"
+                src="./src/img/bonuses/fire-1x.png"
+                alt="fire"
+                width="42"
+                height="42"
+            /></picture>
+            <p class="money-gift-number">20 000 грн!</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonuses/fire-1x.png 1x,
+                  ./src/img/bonuses/fire-1x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="42"
+                height="42" />
+              <img
+                class="fire-image right"
+                src="./src/img/bonuses/fire-1x.png"
+                alt="fire"
+                width="42"
+                height="42"
+            /></picture>
+          </div> -->
+          <!-- <ul class="register-rules">
+            <li class="list-item">
+              Реєструючись зараз, ви автоматично отримуєте шанс виграти 20 000
+              грн
+            </li>
+            <li class="list-item">
+              Не тільки інструменти для підвищення енергії та ресурсності, але й
+              можливість зробити це разом із солідною грошовою підтримкою!
+            </li>
+          </ul>
+          <p class="time-limited">
+            ⏳ <span>Час обмежений!</span> Поспішайте — залишилося тільки кілька
+            годин, щоб отримати свій шанс на <span>20 000 грн</span>
+          </p> -->
+          <div id="countdown-one" class="countdown">
+            <div class="countdown-number">
+              <span class="hours countdown-time"></span>
+              <div class="countdown-label hours-label"></div>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <div class="countdown-label minutes-label"></div>
+            </div>
+            <div><span class="countdown-doubledot"></span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <div class="countdown-label seconds-label"></div>
+            </div>
+          </div>
+          <!-- <div class="header-button-container">
+            <button class="header-button link" type="button" data-modal-open>
+              приєднатися
+            </button>
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/sale-mark-1x.png 1x,
+                    ./src/img/header/sale-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="52"
+                  height="52" />
+                <img
+                  class="sale-mark"
+                  src="./src/img/header/sale-mark-1x.png"
+                  alt="sale"
+                  width="52"
+                  height="52"
+              /></picture>
+              <p class="sale-number">-90%</p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <section class="about-author section">
+        <div class="container">
+          <div class="about-author-title-container">
+            <p class="about-author-subtitle">декілька слів</p>
+            <h2 class="about-author-title">про автора</h2>
+          </div>
+          <div class="about-desc-container">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/about-author/main-author-image-1x.png 1x,
+                  ./src/img/about-author/main-author-image-2x.png 2x
+                "
+                width="120"
+                height="132" />
+              <img
+                class="author-image"
+                src="./src/img/about-author/main-author-image-1x.png"
+                alt="author"
+                width="120"
+                height="132"
+            /></picture>
+            <p class="about-desc">
+              <span>Мене звати Астаф’єв-Кочев Максим,</span> я не пірат хоч і
+              схожий, я ветеран, завжди був борцем за справедливість,
+              підприємець, автор трансформаційної методології, книги і програм
+              по швидким змінам. Спеціаліст в роботі з свідомим, підсвідомим і
+              надсвідомим рівнями. Духовний і фінансовий наставник
+            </p>
+          </div>
+          <div class="story-wrapper">
+            <p class="story-title">Багато років розвиваючи бізнес,</p>
+            <p class="story-text">
+              і працюючи як керівник, поранення і майже повна сліпота вивели
+              мене на шлях допомоги іншим розкривати їх потенціал роблячи
+              x2-x5-x10 в прибутку і задоволені від життя!
+            </p>
+            <ul class="story-gallery">
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/about-author/gallery-01-1x.png 1x,
+                      ./src/img/about-author/gallery-01-2x.png 2x
+                    "
+                    width="134"
+                    height="134" />
+                  <img
+                    class="author-image"
+                    src="./src/img/about-author/gallery-01-1x.png"
+                    alt="author"
+                    width="134"
+                    height="134"
+                /></picture>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/about-author/gallery-02-1x.png 1x,
+                      ./src/img/about-author/gallery-02-2x.png 2x
+                    "
+                    width="134"
+                    height="134" />
+                  <img
+                    class="author-image"
+                    src="./src/img/about-author/gallery-02-1x.png"
+                    alt="author"
+                    width="134"
+                    height="134"
+                /></picture>
+              </li>
+              <li class="list-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/about-author/gallery-03-1x.png 1x,
+                      ./src/img/about-author/gallery-03-2x.png 2x
+                    "
+                    width="280"
+                    height="170" />
+                  <img
+                    class="author-image"
+                    src="./src/img/about-author/gallery-03-1x.png"
+                    alt="author"
+                    width="280"
+                    height="170"
+                /></picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="students-cases">
+        <div class="container">
+          <div class="students-cases-title-container">
+            <h2 class="students-cases-title">Ось лише декілька кейсів</h2>
+            <p class="students-cases-subtitle">моїх учнів на цьому тижні:</p>
+          </div>
+          <ul class="students-cases-list">
+            <li class="list-item">
+              Декілька років Руслана не могла пробити стелю в 800$ і ось в цьому
+              місяці
+            </li>
+            <li class="list-item">
+              Діана маркетолог але з низькою самооцінкою врахувала за копійки!
+              Вийшла з рабства і дивом почав рости прибуток!
+            </li>
+            <li class="list-item">
+              Кирило початківець і мав дохід всього в 300$ тепер маємо що маємо!
+              Всього за місяць роботи!
+            </li>
+          </ul>
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/cases/case-01-1x.png 1x,
+                      ./src/img/cases/case-01-2x.png 2x
+                    "
+                    width="276"
+                    height="370" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/cases/case-01-1x.png"
+                    alt="cases"
+                    width="276"
+                    height="370"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/cases/case-02-1x.png 1x,
+                      ./src/img/cases/case-02-2x.png 2x
+                    "
+                    width="276"
+                    height="370" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/cases/case-02-1x.png"
+                    alt="cases"
+                    width="276"
+                    height="370"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/cases/case-03-1x.png 1x,
+                      ./src/img/cases/case-03-2x.png 2x
+                    "
+                    width="276"
+                    height="212" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/cases/case-03-1x.png"
+                    alt="cases"
+                    width="276"
+                    height="212"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/cases/case-04-1x.png 1x,
+                      ./src/img/cases/case-04-2x.png 2x
+                    "
+                    width="276"
+                    height="220" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/cases/case-04-1x.png"
+                    alt="cases"
+                    width="276"
+                    height="220"
+                /></picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="motivation-container">
+            <p class="motivation-title">ЗНАЙДІТЬ те, ЩО сТРИМУЄ ВАш ПРОРИВ</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/cases/motivation-1x.png 1x,
+                  ./src/img/cases/motivation-2x.png 2x
+                "
+                width="252"
+                height="203" />
+              <img
+                class="motivation-image"
+                src="./src/img/cases/motivation-1x.png"
+                alt="motivation"
+                width="252"
+                height="203"
+            /></picture>
+          </div>
+        </div>
+      </section>
+      <section class="for-whom">
+        <div class="container">
+          <div class="not-for-you">
+            <div class="not-container-title">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/nfy-title-1x.png 1x,
+                    ./src/img/for-whom/nfy-title-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="60"
+                  height="60" />
+                <img
+                  class="header-item-image"
+                  src="./src/img/for-whom/nfy-title-1x.png"
+                  alt="emoji"
+                  width="60"
+                  height="60"
+              /></picture>
+              <h2 class="not-title">
+                Цей практикум <span>НЕ для вас, якщо</span>
+              </h2>
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/nfy-title-1x.png 1x,
+                    ./src/img/for-whom/nfy-title-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="60"
+                  height="60" />
+                <img
+                  class="header-item-image"
+                  src="./src/img/for-whom/nfy-title-1x.png"
+                  alt="emoji"
+                  width="60"
+                  height="60"
+              /></picture>
+            </div>
+            <ul class="ntf-list list">
+              <li class="list-item">
+                Ви вже змирилися з тим рівнем прибутку і життям, яке у вас є
+              </li>
+              <li class="list-item">
+                Вам комфортно жити в постійній напрузі, важкості та стресі
+              </li>
+            </ul>
+          </div>
+          <div class="for-you-container">
+            <div class="not-container-title">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/fy-title-1x.png 1x,
+                    ./src/img/for-whom/fy-title-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="60"
+                  height="60" />
+                <img
+                  class="header-item-image"
+                  src="./src/img/for-whom/fy-title-1x.png"
+                  alt="emoji"
+                  width="60"
+                  height="60"
+              /></picture>
+              <h2 class="not-title green">
+                Цей практикум <span>для тих, хто</span>
+              </h2>
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/fy-title-1x.png 1x,
+                    ./src/img/for-whom/fy-title-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="60"
+                  height="60" />
+                <img
+                  class="header-item-image"
+                  src="./src/img/for-whom/fy-title-1x.png"
+                  alt="emoji"
+                  width="60"
+                  height="60"
+              /></picture>
+            </div>
+            <ul class="fy-list list">
+              <li class="list-item">
+                Відчуває, що застряг у фінансовій стелі і готовий пробити її
+              </li>
+              <li class="list-item">
+                Бачить, що життя може бути кращим, і готовий це довести собі
+              </li>
+              <li class="list-item">
+                Знає, що робити, але досі не діє — настав час нарешті взяти
+                справи в свої руки!
+              </li>
+              <li class="list-item">
+                Хоче заробляти легко і отримувати кайф від кожного заробленого
+                долара
+              </li>
+              <li class="list-item">
+                Мріє збільшити свої доходи в 2, 3 або 5 разів і більше
+              </li>
+              <li class="list-item">
+                Відчуває величезний потенціал і хоче нарешті розкрити його
+                повною мірою
+              </li>
+              <li class="list-item">
+                Хоче мати можливість фінансово допомагати близьким і друзям,
+                закривати збори та робити добро, не думаючи про гроші
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="practicum">
+        <div class="container">
+          <div class="you-get-box">
+            <h2 class="practicum-title">Що ви отримаєте на практикумі:</h2>
+            <p class="practicum-desc">
+              Унікальні інструменти з моєї методології, які допоможуть вам
+              виявити та прибрати підсвідомі бар'єри, що заважають заробляти
+              більше і жити на повну
+            </p>
+            <ul class="practicum-list list">
+              <li class="practicum-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/practicum/practicum-image-01-1x.png 1x,
+                      ./src/img/practicum/practicum-image-01-2x.png 2x
+                    "
+                    media="(min-width: 320px)" />
+                  <img
+                    class="practicum-image"
+                    src="./src/img/practicum/practicum-image-01-1x.png"
+                    alt="emoji"
+                /></picture>
+                <span class="item-number">7</span>
+                <div class="text-box">
+                  <p class="item-title">
+                    коротких, але глибоких уроків <br />
+                    <span>які вразять вас своєю ефективністю.</span>
+                  </p>
+                  <p class="item-text">
+                    Ви дізнаєтесь про блоки, що стримують ваш успіх, і почнете
+                    їх руйнувати вже з першого дня
+                  </p>
+                </div>
+              </li>
+              <li class="practicum-item">
+                <span class="item-number">7</span>
+                <div class="text-box">
+                  <p class="item-title">
+                    7 потужних, простих та швидких вправ та інструментів,
+                  </p>
+                  <p class="item-text">
+                    які ви можете впровадити прямо зараз і побачити результат.
+                    Ці інструменти працюють на 100%, якщо ви готові діяти
+                  </p>
+                </div>
+              </li>
+              <li class="practicum-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/practicum/practicum-image-02-1x.png 1x,
+                      ./src/img/practicum/practicum-image-02-2x.png 2x
+                    "
+                    media="(min-width: 320px)" />
+                  <img
+                    class="practicum-image"
+                    src="./src/img/practicum/practicum-image-02-1x.png"
+                    alt="emoji"
+                /></picture>
+                <p class="item-text">
+                  <span>🔥 Жива онлайн зустріч🔥</span> <br />
+                  — це ваш шанс отримати індивідуальний розбір ваших підсвідомих
+                  блоків і конкретну карту дій для їх опрацювання. Все це — в
+                  реальному часі
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="you-can-box">
+            <h2 class="practicum-get-title">Що ви отримаєте</h2>
+            <p class="you-can-desc">
+              всього за кілька годин глибокого занурення:
+            </p>
+            <ul class="can-list list">
+              <li class="can-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/green-check-1x.png 1x,
+                      ./src/img/header/green-check-2x.png 2x
+                    "
+                    width="24"
+                    height="24" />
+                  <img
+                    class="header-item-image"
+                    src="./src/img/header/green-check-1x.png"
+                    alt="emoji"
+                    width="24"
+                    height="24"
+                /></picture>
+                <p class="can-text">
+                  <span
+                    >Виявите підсвідомі блоки, переконання і родові
+                    програми,</span
+                  >
+                  які непомітно витягують вашу енергію, спричиняють стрес,
+                  апатію, знижують рівень енергії та обмежують ваш дохід на
+                  поточному рівні
+                </p>
+              </li>
+              <li class="can-item">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/green-check-1x.png 1x,
+                      ./src/img/header/green-check-2x.png 2x
+                    "
+                    width="24"
+                    height="24" />
+                  <img
+                    class="header-item-image"
+                    src="./src/img/header/green-check-1x.png"
+                    alt="emoji"
+                    width="24"
+                    height="24"
+                /></picture>
+                <p class="can-text">
+                  <span>Дізнаєтеся, як ці блоки опрацювати</span> і перетворити
+                  їх у важелі, які дозволять вам збільшити свої прибутки у 2x,
+                  5x або навіть 10x разів, не працюючи більше, а відчуваючи
+                  легкість і ресурс
+                </p>
+              </li>
+            </ul>
+            <div class="practicum-button-container">
+              <button class="practicum-button" type="button" data-modal-open>
+                приєднатися
+              </button>
+              <div class="practicum-sale-mark">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/sale-mark-1x.png 1x,
+                      ./src/img/header/sale-mark-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="69"
+                    height="69" />
+                  <img
+                    class="sale-mark"
+                    src="./src/img/header/sale-mark-1x.png"
+                    alt="sale"
+                    width="69"
+                    height="69"
+                /></picture>
+                <p class="practicum-sale-number">-90%</p>
+              </div>
+            </div>
+            <div class="bonus-container">
+              <h2 class="bonus-title">
+                <span>Встигніть зареєструватись до кінця</span> доби і отримайте
+                потужний бонус!
+              </h2>
+              <ul class="bonus-list">
+                <li class="list-item">
+                  <p class="item-title">
+                    🔥 ТОП-5 інструментів для підвищення енергії та ресурсності!
+                    🔥
+                  </p>
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/bonus/bonus-01-1x.png 1x,
+                        ./src/img/bonus/bonus-01-2x.png 2x
+                      "
+                      width="238"
+                      height="210" />
+                    <img
+                      class="main-bonus"
+                      src="./src/img/bonus/bonus-01-1x.png"
+                      alt="bonus"
+                      width="238"
+                      height="210"
+                  /></picture>
+                  <p class="item-desc"><span>Що ви отримаєте:</span></p>
+                  <ul class="item-list">
+                    <li class="item-you-get">
+                      <span>
+                        Перевірені методики для збільшення вашої енергії</span
+                      >
+                      — прості вправи та поради, які допоможуть вам зберігати
+                      високий рівень енергії кожного дня
+                    </li>
+                    <li class="item-you-get">
+                      <span>План ресурсного дня</span> — чіткий алгоритм дій, як
+                      розподілити енергію та ресурси на максимум продуктивності
+                    </li>
+                    <li class="item-you-get">
+                      <span>Інструменти для швидкого відновлення</span> —
+                      техніки, які допоможуть вам швидко відновлювати сили та
+                      тримати себе у формі без вигоряння
+                    </li>
+                  </ul>
+                  <p class="bonus-cost"><span>Цінність:</span> $250</p>
+                </li>
+                <li class="list-item">
+                  <p class="item-title">
+                    🔥 Система керування <br />
+                    фінансами на мільйон 🔥
+                  </p>
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/bonus/bonus-02-1x.png 1x,
+                        ./src/img/bonus/bonus-02-2x.png 2x
+                      "
+                      width="238"
+                      height="210" />
+                    <img
+                      class="main-bonus"
+                      src="./src/img/bonus/bonus-02-1x.png"
+                      alt="bonus"
+                      width="238"
+                      height="210"
+                  /></picture>
+                  <p class="item-desc">
+                    <span>Що ви отримаєте:</span>
+                  </p>
+                  <ul class="item-list">
+                    <li class="item-you-get">
+                      <span>Система, яка дасть вам контроль над фінансами</span>
+                      — тепер не вони керуватимуть вами, а ви ними! Дотримуючись
+                      її, ви 100% станете заможною людиною
+                    </li>
+                    <li class="item-you-get">
+                      <span
+                        >Ви зрозумієте, як стати фінансово вільною
+                        людиною,</span
+                      >
+                      замінивши тривогу за гроші на спокій та впевненість
+                    </li>
+                    <li class="item-you-get">
+                      <span
+                        >З кожним місяцем ваших заощаджень буде ставати
+                        більше,</span
+                      >
+                      а імпульсивні покупки перестануть бути проблемою
+                    </li>
+                  </ul>
+                  <p class="bonus-cost"><span>Цінність:</span> $250</p>
+                </li>
+              </ul>
+            </div>
+            <div class="only-now-wrapper">
+              <p class="only-now-text">
+                💥
+                <span class="weight-accent"
+                  >Тільки для тих, хто зареєструється сьогодні</span
+                >
+                — отримайте цей бонус за
+                <span class="decor-accent">$500</span> безкоштовно і зробіть
+                свій прорив ще швидше!
+              </p>
+            </div>
+            <!-- <div class="possible-wrapper">
+              <p class="possible-title">🔥 + Можливість 🔥</p>
+              <p class="possible-text">виграти 20 000грн</p>
+            </div> -->
+            <div id="countdown-two" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+                <div class="countdown-label hours-label"></div>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+                <div class="countdown-label minutes-label"></div>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+                <div class="countdown-label seconds-label"></div>
+              </div>
+            </div>
+            <div class="header-button-container">
+              <button class="header-button link" type="button" data-modal-open>
+                приєднатися
+              </button>
+              <div class="header-sale-mark">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/sale-mark-1x.png 1x,
+                      ./src/img/header/sale-mark-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="52"
+                    height="52" />
+                  <img
+                    class="sale-mark"
+                    src="./src/img/header/sale-mark-1x.png"
+                    alt="sale"
+                    width="52"
+                    height="52"
+                /></picture>
+                <p class="sale-number">-90%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="program section">
+        <div class="container">
+          <div class="program-title-container">
+            <h2 class="program-title">Програма</h2>
+            <p class="program-subtitle">ПРАКТИКУМу</p>
+          </div>
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/program/program-01-1x.png 1x,
+                      ./src/img/program/program-01-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="swiper-program-image"
+                    src="./src/img/program/program-01-1x.png"
+                    alt="program"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/program/program-02-1x.png 1x,
+                      ./src/img/program/program-02-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="swiper-program-image"
+                    src="./src/img/program/program-02-1x.png"
+                    alt="program"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/program/program-03-1x.png 1x,
+                      ./src/img/program/program-03-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="swiper-program-image"
+                    src="./src/img/program/program-03-1x.png"
+                    alt="program"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/program/program-04-1x.png 1x,
+                      ./src/img/program/program-04-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="swiper-program-image"
+                    src="./src/img/program/program-04-1x.png"
+                    alt="program"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/program/program-05-1x.png 1x,
+                      ./src/img/program/program-05-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="swiper-program-image"
+                    src="./src/img/program/program-05-1x.png"
+                    alt="program"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/program/program-06-1x.png 1x,
+                      ./src/img/program/program-06-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="swiper-program-image"
+                    src="./src/img/program/program-06-1x.png"
+                    alt="program"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/program/program-07-1x.png 1x,
+                      ./src/img/program/program-07-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="320"
+                    height="auto" />
+                  <img
+                    class="swiper-program-image"
+                    src="./src/img/program/program-07-1x.png"
+                    alt="program"
+                    width="320"
+                    height="auto"
+                /></picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="results">
+        <div class="container">
+          <h2 class="results-title">Результати після</h2>
+          <p class="results-subtitle">прибирання підсвідомих блоків</p>
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-01-1x.png 1x,
+                      ./src/img/results/results-01-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="349" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-01-1x.png"
+                    alt="results"
+                    width="345"
+                    height="349"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-02-1x.png 1x,
+                      ./src/img/results/results-02-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="349" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-02-1x.png"
+                    alt="results"
+                    width="345"
+                    height="349"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-03-1x.png 1x,
+                      ./src/img/results/results-03-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="349" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-03-1x.png"
+                    alt="results"
+                    width="345"
+                    height="349"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-04-1x.png 1x,
+                      ./src/img/results/results-04-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="auto" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-04-1x.png"
+                    alt="results"
+                    width="345"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-05-1x.png 1x,
+                      ./src/img/results/results-05-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="auto" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-05-1x.png"
+                    alt="results"
+                    width="345"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-06-1x.png 1x,
+                      ./src/img/results/results-06-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="auto" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-06-1x.png"
+                    alt="results"
+                    width="345"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-07-1x.png 1x,
+                      ./src/img/results/results-07-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="auto" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-07-1x.png"
+                    alt="results"
+                    width="345"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-08-1x.png 1x,
+                      ./src/img/results/results-08-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="auto" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-08-1x.png"
+                    alt="results"
+                    width="345"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-09-1x.png 1x,
+                      ./src/img/results/results-09-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="auto" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-09-1x.png"
+                    alt="results"
+                    width="345"
+                    height="auto"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/results/results-10-1x.png 1x,
+                      ./src/img/results/results-10-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="auto" />
+                  <img
+                    class="swiper-image"
+                    src="./src/img/results/results-10-1x.png"
+                    alt="results"
+                    width="345"
+                    height="auto"
+                /></picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="practicum-button-container">
+            <button class="practicum-button" type="button" data-modal-open>
+              Отримати такі ж результати!
+            </button>
+            <div class="practicum-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/sale-mark-1x.png 1x,
+                    ./src/img/header/sale-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="69"
+                  height="69" />
+                <img
+                  class="sale-mark"
+                  src="./src/img/header/sale-mark-1x.png"
+                  alt="sale"
+                  width="69"
+                  height="69"
+              /></picture>
+              <p class="practicum-sale-number">-90%</p>
+            </div>
+          </div>
+          <p class="result-last-places">залишилось 10 місць</p>
+          <div class="result-garant-wrapper">
+            <div class="result-garant-title-container">
+              <h2 class="result-garant-title">Гарантія</h2>
+              <p class="result-garant-subtitle">результату</p>
+            </div>
+            <p class="result-garant-desc" id="buy">
+              Ми впевнені в ефективності цього практикуму.
+              <span>Якщо ви виконаєте всі вправи</span> і не отримаєте
+              <span>нового розуміння про себе</span> та про причини ваших
+              результатів, ми повернемо вам 100% коштів
+            </p>
+            <p class="result-garant-text">
+              💡 <span>Без ризику — тільки результат!</span> Ви або отримуєте
+              прорив у своєму житті та доходах, або повертаєте гроші
+            </p>
+            <div class="practicum-button-container">
+              <button class="practicum-button" type="button" data-modal-open>
+                Приєднатись з гарантією
+              </button>
+              <div class="practicum-sale-mark right">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/header/sale-mark-1x.png 1x,
+                      ./src/img/header/sale-mark-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="69"
+                    height="69" />
+                  <img
+                    class="sale-mark"
+                    src="./src/img/header/sale-mark-1x.png"
+                    alt="sale"
+                    width="69"
+                    height="69"
+                /></picture>
+                <p class="practicum-sale-number">-90%</p>
+              </div>
+            </div>
+          </div>
+          <div class="how-study">
+            <h2 class="how-study-title">Як відбувається</h2>
+            <p class="how-study-subtitle">навчання</p>
+            <ul class="how-study-list list">
+              <li class="how-study-item">
+                <p class="title">
+                  Після долучення до Діагностичного Практикуму Блоків:
+                </p>
+                <ul class="items-list">
+                  <li class="list-item">
+                    Ви отримуєте доступ до чату з уроками і вправами, які можете
+                    виконувати у своєму темпі
+                  </li>
+                  <li class="list-item">
+                    У чаті буде активне спілкування, де я ділюсь додатковими
+                    матеріалами, інсайтами, а також відповідаю на ваші запитання
+                  </li>
+                  <li class="list-item">
+                    Ви завжди на зв'язку з іншими учасниками, обговорюючи свої
+                    досягнення та отримуючи підтримку
+                  </li>
+                </ul>
+              </li>
+              <li class="how-study-item">
+                <p class="title">
+                  Після проходження діагностичних уроків і вправ:
+                </p>
+                <p class="you-wait">Вас чекає жива онлайн зустріч, де ми:</p>
+                <ul class="items-list">
+                  <li class="list-item">
+                    Розберемо результати вашої діагностики
+                  </li>
+                  <li class="list-item">
+                    Побудуємо чіткий план дій для опрацювання підсвідомих блоків
+                  </li>
+                  <li class="list-item">
+                    Ви дізнаєтесь, як збільшити свій дохід у 2,5 або навіть 10
+                    разів, замінивши стрес і напругу на легкість і задоволення
+                    від процесу
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="reviews section">
+        <div class="container">
+          <h2 class="reviews-title">відгуки</h2>
+          <div class="swiper mySwiper4">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-01-1x.png 1x,
+                      ./src/img/reviews/reviews-01-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-01-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-02-1x.png 1x,
+                      ./src/img/reviews/reviews-02-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-02-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-03-1x.png 1x,
+                      ./src/img/reviews/reviews-03-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-03-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-04-1x.png 1x,
+                      ./src/img/reviews/reviews-04-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-04-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-05-1x.png 1x,
+                      ./src/img/reviews/reviews-05-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-05-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-06-1x.png 1x,
+                      ./src/img/reviews/reviews-06-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-06-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-07-1x.png 1x,
+                      ./src/img/reviews/reviews-07-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-07-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-08-1x.png 1x,
+                      ./src/img/reviews/reviews-08-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-08-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-09-1x.png 1x,
+                      ./src/img/reviews/reviews-09-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-09-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+              <div class="swiper-slide">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/reviews/reviews-10-1x.png 1x,
+                      ./src/img/reviews/reviews-10-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="345"
+                    height="345" />
+                  <img
+                    class="reviews-image"
+                    src="./src/img/reviews/reviews-10-1x.png"
+                    alt="reviews"
+                    width="345"
+                    height="345"
+                /></picture>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="questions section">
+        <div class="container">
+          <div class="questions-title-box">
+            <h2 class="questions-title">Відповіді</h2>
+            <p class="questions-subtitle">на запитання</p>
+          </div>
+          <div class="questions-container">
+            <ul class="questions-list list">
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Скільки часу потрібно на проходження?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Якщо ви цілеспрямована людина, що націлена на результат,
+                      то вже за <span>2-3 години</span> ви зможете пройти
+                      діагностику і почати бачити перші зміни у своєму житті
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">Чи складні вправи?</p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Ні, вправи максимально прості та <span>зрозумілі</span>.
+                      Вони розроблені так, щоб їх можна було легко виконувати
+                      самостійно, при цьому вони забезпечують
+                      <span>глибоке опрацювання</span> і справжній ефект
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Чи зможу я самостійно виконати вправи без нагляду
+                    спеціаліста?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Так, вправи та інструменти у практикумі розроблені для
+                      самостійного,
+                      <span>легкого і безпечного виконання,</span> але при цьому
+                      залишаються <span>надзвичайно ефективними</span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">Чи безпечно це?</p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Абсолютно безпечно для всіх, у кого немає встановлених
+                      серйозних психологічних розладів.
+                      <span>Депресія та апатія</span> не є протипоказанням —
+                      навпаки, ці вправи допоможуть вам отримати нову енергію та
+                      <span>відчутно покращити своє самопочуття</span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="questions-item">
+                <div class="questions-title-container">
+                  <p class="questions-item-title">
+                    Яка гарантія, що це буде корисно?
+                  </p>
+                  <div class="questions-item-svg"></div>
+                </div>
+                <div class="questions-answer-container">
+                  <div class="questions-wrapper">
+                    <p class="questions-answer">
+                      Якщо ви виконаєте вправи і не отримаєте жодного нового
+                      розуміння про себе та причини своїх результатів, ми
+                      <span>повернемо вам гроші</span>. Ви або досягаєте змін,
+                      або отримуєте повернення коштів —
+                      <span>жодного ризику</span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="practicum-button-container">
+            <button class="practicum-button" type="button" data-modal-open>
+              приєднатися
+            </button>
+            <div class="practicum-sale-mark right">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/sale-mark-1x.png 1x,
+                    ./src/img/header/sale-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="69"
+                  height="69" />
+                <img
+                  class="sale-mark"
+                  src="./src/img/header/sale-mark-1x.png"
+                  alt="sale"
+                  width="69"
+                  height="69"
+              /></picture>
+              <p class="practicum-sale-number">-90%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="deals-list list">
+          <li class="deals-item">
+            <a
+              class="deals-link link"
+              href="https://docs.google.com/document/d/17zzEZXH1NA6U14tx36jb1OAmXlVOo1W5g1ttfzSC7R0/edit?usp=sharing"
+              target="_blank"
+              rel="nofollow"
+              >Договір оферта</a
+            >
+          </li>
+          <li class="deals-item">
+            <a
+              class="deals-link link"
+              href="https://docs.google.com/document/d/1m3xObUDv6wUcX_0w45En9CZSL78bH2whR368OPctMeY/edit?usp=sharing"
+              target="_blank"
+              rel="nofollow"
+              >Політика конфіденційності</a
+            >
+          </li>
+        </ul>
+        <div class="mail-container">
+          <a
+            class="mail-link link"
+            href="mailto:kochev.family@gmail.com"
+            target="_blank"
+            rel="nofollow"
+          >
+            <img
+              src="./src/img/gmail-icon.svg"
+              alt="gmail"
+              width="21"
+              height="16"
+            />
+            <p class="mail-link">kochev.family@gmail.com</p></a
+          >
+        </div>
+        <p class="footer-fop">ФОП Кочев Максим Олександрович</p>
+        <div class="insta-container">
+          <a
+            class="insta-link link"
+            href="https://www.instagram.com/kochev_maksym"
+            target="_blank"
+            rel="nofollow"
+            ><img
+              src="./src/img/insta-icon.svg"
+              alt="insta"
+              width="24"
+              height="24"
+            />
+            <p class="insta-name">@kochev_maksym</p></a
+          >
+        </div>
+        <div class="disign-creator-container">
+          <a
+            class="disigner-link link"
+            href="https://www.instagram.com/lllcku"
+            target="_blank"
+            rel="nofollow"
+            ><p class="creator-text">Сайт розроблений</p>
+            <img
+              src="./src/img/insta-icon.svg"
+              alt="insta"
+              width="14"
+              height="14"
+            />
+            <p class="creator-text">@lllcku</p></a
+          >
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1729323493000"></div>
+      </div>
+    </div>
+    <script src="./src/js/js-modal.js" type="module"></script>
+    <script src="./src/js/changeDate.js" type="module"></script>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/swiper.js" type="module"></script>
+    <script src="./src/js/questions.js" type="module"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1729323493000&uuid=7eeda9f3-3427-4cf9-b113-d9eb69eefb42&producer=https://kwiga.com/"
+    ></script>
+  </body>
+</html>

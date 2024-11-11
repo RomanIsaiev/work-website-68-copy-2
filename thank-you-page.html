@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THANK YOU!</title>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/thanks.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+      fbq('init', '989563392403931');
+      fbq('track', 'PageView');
+      fbq('track', 'Purchase');
+    </script>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=989563392403931&ev=PageView&noscript=1"
+    /></noscript>
+    <section class="thanks-section section">
+      <div class="container">
+        <h1 class="thanks-title">
+          <span>Дякуємо</span> <br />
+          за покупку!
+        </h1>
+        <p class="go-telegram">
+          Переходьте в телеграм чат, щоб почати проходити практикум і отримати
+          свій ПРОРИВ
+        </p>
+        <picture
+          ><source
+            srcset="
+              ./src/img/thanks-page/go-telegram-1x.png 1x,
+              ./src/img/thanks-page/go-telegram-2x.png 2x
+            "
+            width="116"
+            height="auto" />
+          <img
+            class="go-telegram-arrows"
+            src="./src/img/thanks-page/go-telegram-1x.png"
+            alt="arrows"
+            width="116"
+            height="auto"
+        /></picture>
+        <a
+          class="thanks-telegram link"
+          href="https://t.me/+IoBvcy9I0IRlNGMy"
+          target="_blank"
+          rel="nofollow"
+          ><img
+            src="./src/img/thanks-page/telegram.svg"
+            alt="telegram-icon"
+          />Приєднатися до Телеграм чату</a
+        >
+      </div>
+    </section>
+  </body>
+</html>
