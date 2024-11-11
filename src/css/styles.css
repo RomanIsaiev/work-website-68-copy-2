@@ -16,8 +16,12 @@
 /* header */
 
 .header {
+  position: relative;
+
   padding-top: 16px;
   padding-bottom: 20px;
+
+  overflow: hidden;
 
   max-width: 430px;
   width: 100%;
@@ -42,6 +46,84 @@
     background-image: url(../img/header/background-2x.jpg);
   }
 }
+
+/*  */
+
+.canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1);
+  transform-origin: center;
+  user-select: none;
+}
+
+#sale {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  transform: rotate(0deg);
+  cursor: pointer;
+}
+
+#sale p {
+  pointer-events: none;
+  display: flex;
+  grid-gap: 4ch;
+
+  color: var(--color, black);
+  padding: 0.25em 0;
+  position: absolute;
+  text-decoration: none;
+  font: normal 1.5rem/1 var(--font-family);
+  letter-spacing: 1ch;
+
+  transform-origin: 0 50%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.66);
+}
+#sale p:first-child {
+  transform: rotate(46deg);
+  top: -80px;
+  left: 225px;
+  z-index: 3;
+
+  background: #ffeb80;
+}
+
+#sale p:first-child span {
+  animation: marquee 24s linear infinite;
+}
+
+#sale p:last-child {
+  transform: rotate(70deg);
+  top: -80px;
+  left: 320px;
+
+  background: #fff;
+}
+
+#sale p:last-child span {
+  animation: marquee2 24s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(-24ch);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee2 {
+  to {
+    transform: translateX(-24ch);
+  }
+}
+
+/*  */
 
 .header-practicum {
   color: #ffd676;
@@ -184,11 +266,18 @@
   max-width: 148px;
 }
 
+.header-price-container {
+  position: relative;
+
+  max-width: 100px;
+  margin: 0 auto 6px auto;
+}
+
 .header-price {
   color: #fff;
   text-align: center;
   font-family: 'Bebas Neue Cyrillic';
-  font-size: 27px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 70%; /* 19.035px */
@@ -198,13 +287,58 @@
   margin-bottom: 8px;
 }
 
+.line-thorough {
+  position: absolute;
+  left: 5px;
+  top: 12px;
+
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .line-thorough {
+    position: absolute;
+    left: 5px;
+    top: 9px;
+
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+  }
+}
+
 .header-price span {
   color: #a5c9ff;
-  font-size: 20px;
+  font-size: 26px;
   letter-spacing: -0.4px;
   text-transform: uppercase;
-  text-decoration: line-through;
-  text-decoration-color: #fff;
+}
+
+.header-desc-price {
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105%; /* 13.65px */
+  letter-spacing: -0.26px;
+
+  max-width: 240px;
+  margin: 0 auto 20px auto;
+  background-color: #090909;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.header-desc-price span {
+  font-weight: 500;
 }
 
 .header-button-container {
@@ -1241,6 +1375,23 @@
   font-weight: 400;
   line-height: 100%;
   letter-spacing: -0.26px;
+}
+
+.only-now-text-two {
+  margin-top: 16px;
+
+  color: #fff;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.26px;
+}
+
+.only-now-text-two span {
+  font-weight: 500;
 }
 
 .only-now-text .weight-accent {
