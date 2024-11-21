@@ -269,7 +269,7 @@
 .header-price-container {
   position: relative;
 
-  max-width: 120px;
+  max-width: 210px;
   margin: 0 auto 6px auto;
 }
 
@@ -289,11 +289,11 @@
 
 .line-thorough {
   position: absolute;
-  left: 3px;
+  left: 0x;
   top: 12px;
 
   display: block;
-  width: 62px;
+  width: 102px;
   height: 2px;
   background-color: #fff;
 }
